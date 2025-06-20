@@ -143,7 +143,7 @@ fieldset {
   background-color: #545050;
 }
 
-.button:focus-visible, 
+.button:focus-visible,
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
 }
@@ -252,6 +252,7 @@ button:focus,
 }
 
 .content__card-link {
+  display: block;
   text-decoration: none;
   color: inherit;
 }
